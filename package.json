@@ -1,6 +1,6 @@
 {
   "name": "@alex.garcia/observable-notebook-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React component for rendering Observable notebooks",
   "main": "index.js",
   "license": "MIT",
