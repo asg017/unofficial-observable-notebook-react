@@ -1,0 +1,25 @@
+{
+  "name": "@alex.garcia/observable-notebook-react",
+  "version": "0.0.3",
+  "description": "A React component for rendering Observable notebooks",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "react": "16.8",
+    "rollup": "^1.23.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
+  }
+}
