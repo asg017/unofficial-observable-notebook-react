@@ -1,4 +1,4 @@
-//import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+import resolve from 'rollup-plugin-node-resolve';
 
 export default {
   input: 'src/index.js',
@@ -11,13 +11,11 @@ export default {
     extend: true,
     compact: true,
     indent: false,
-    //file: "build/index.umd.js",
-    //format: "umd",
-    file: "build/index.iife.js",
-    format: "iife",
+    file: "build/index.umd.js",
+    format: "umd",
     name: "component",
   },
   plugins: [
-    //peerDepsExternal(),
+    resolve()
   ],
 };
